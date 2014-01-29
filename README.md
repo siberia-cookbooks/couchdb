@@ -25,10 +25,16 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['couchdb']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
+    <td><tt>['couchdb']['bind_address']</tt></td>
+    <td>String</td>
+    <td>Address to bind couchdb to</td>
+    <td><tt>127.0.0.1</tt></td>
+  </tr>
+  <tr>
+    <td><tt>['couchdb']['secure_rewrites']</tt></td>
+    <td>String</td>
+    <td>Ensure rewrites are secure</td>
+    <td><tt>false</tt></td>
   </tr>
 </table>
 
@@ -63,4 +69,6 @@ e.g.
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Authors:
+
+* Jacques Marneweck <http://www.jacquesmarneweck.com/> (jacques@siberia.co.za)
